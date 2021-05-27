@@ -1,45 +1,13 @@
 import React from 'react';
+import Directory from '../../Components/Directory/Directory';
 
 import './Homepage.styles.scss';
 
 
 const Homepage = () => (
-    <div className='Homepage'>
-        <h1>Welcome to my homepage</h1>
-        <div className='directory menu'>
-            <div className='menu-item'>
-                <div className='content'>
-                    <div className='title'>HATS</div>
-                    <span className='subtitle'>SHOP NOW</span>
-                </div>
-            </div>
-            <div className='menu-item'>
-                <div className='content'>
-                    <div className='title'>JACKETS</div>
-                    <span className='subtitle'>SHOP NOW</span>
-                </div>
-            </div>
-            <div className='menu-item'>
-                <div className='content'>
-                    <div className='title'>SNEAKERS</div>
-                    <span className='subtitle'>SHOP NOW</span>
-                </div>
-            </div>
-            <div className='menu-item'>
-                <div className='content'>
-                    <div className='title'>WOMENS</div>
-                    <span className='subtitle'>SHOP NOW</span>
-                </div>
-            </div>
-            <div className='menu-item'>
-                <div className='content'>
-                    <div className='title'>MENS</div>
-                    <span className='subtitle'>SHOP NOW</span>
-                </div>
-            </div>
-        </div>
+    <div className='homepage'>
+        <Directory />
     </div>
 );
-
 
 export default Homepage;
